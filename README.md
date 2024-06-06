@@ -1,4 +1,4 @@
-# Speaking, Mentoring, and Assisting Developers at Lagos Blockchain Week
+# [Speaking, Mentoring, and Assisting Developers at Lagos Blockchain Week](https://lagosblockchainweek.io/)
 
 
 **Event:** Lagos Blockchain Week
