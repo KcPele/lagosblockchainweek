@@ -1,81 +1,49 @@
-# 🏗 Scaffold-ETH 2
+Speaking, Mentoring, and Assisting Developers at Lagos Blockchain Week
 
-<h4 align="center">
-  <a href="https://docs.scaffoldeth.io">Documentation</a> |
-  <a href="https://scaffoldeth.io">Website</a>
-</h4>
 
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
+**Event:** Lagos Blockchain Week
 
-⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
+**Role:** Speaker, Mentor, and Developer Assistant
 
-- ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
-- 🪝 **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
-- 🧱 [**Components**](https://docs.scaffoldeth.io/components/): Collection of common web3 components to quickly build your frontend.
-- 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
-- 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
+**Proposal Title:** Empowering New Blockchain Developers with Scaffold-ETH2 at Lagos Blockchain Week
 
-![Debug Contracts tab](https://github.com/scaffold-eth/scaffold-eth-2/assets/55535804/b237af0c-5027-4849-a5c1-2e31495cccb1)
+## Introduction:
 
-## Requirements
+I am excited to submit this grant proposal to BuidlGuidl for my participation in Lagos Blockchain Week as a speaker, mentor, and developer assistant. This event represents a significant opportunity to engage with the burgeoning blockchain community in Lagos, offering invaluable guidance and support to new developers. My focus will be on utilizing Scaffold-ETH2, a powerful toolset that can accelerate the learning curve and development process for blockchain enthusiasts and professionals alike.
 
-Before you begin, you need to install the following tools:
+## Objective:
 
-- [Node (>= v18.17)](https://nodejs.org/en/download/)
-- Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
-- [Git](https://git-scm.com/downloads)
+The primary objective of my participation is to empower new developers by providing them with the knowledge, tools, and hands-on experience required to build decentralized applications (dApps) using Scaffold-ETH2. This will be achieved through a combination of speaking engagements, mentoring sessions, and practical workshops.
 
-## Quickstart
+## Background:
 
-To get started with Scaffold-ETH 2, follow the steps below:
+Lagos Blockchain Week is a pivotal event in the African blockchain calendar, attracting developers, entrepreneurs, and investors from across the continent. The event provides a platform for knowledge sharing, networking, and collaboration, fostering the growth of the blockchain ecosystem in Africa.
 
-1. Clone this repo & install dependencies
+Scaffold-ETH2 is an advanced toolkit designed to simplify and streamline the development of dApps on the Ethereum blockchain. Its comprehensive suite of tools and pre-configured environments make it an ideal resource for both novice and experienced developers.
 
-```
-git clone https://github.com/scaffold-eth/scaffold-eth-2.git
-cd scaffold-eth-2
-yarn install
-```
+## Activities and Deliverables:
 
-2. Run a local network in the first terminal:
+1. **Speaking Engagement:**
+   - **Title:** "Introduction to Scaffold-ETH2: Building the Future of Decentralized Applications"
+   - **Synopsis:** This presentation will cover the fundamentals of Scaffold-ETH2, its core features, and its significance in the blockchain development landscape. I will provide a live demonstration of how to set up and deploy a simple dApp using Scaffold-ETH2.
+   - **Outcome:** Attendees will gain a clear understanding of Scaffold-ETH2 and its potential to accelerate their blockchain development projects.
 
-```
-yarn chain
-```
+2. **Mentoring Sessions:**
+   - **Format:** One-on-one and small group sessions
+   - **Focus Areas:** 
+     - Getting started with Scaffold-ETH2
+     - Best practices for dApp development
+     - Overcoming common development challenges
+   - **Outcome:** Personalized guidance will help developers navigate their unique challenges, ensuring they can effectively utilize Scaffold-ETH2 in their projects.
 
-This command starts a local Ethereum network using Hardhat. The network runs on your local machine and can be used for testing and development. You can customize the network configuration in `hardhat.config.ts`.
+3. **Practical Workshops:**
+   - **Workshop Title:** "Hands-on with Scaffold-ETH2: From Zero to Deployed dApp"
+   - **Content:** Participants will engage in a step-by-step process to build and deploy a fully functional dApp. Topics will include smart contract development, front-end integration, and deployment strategies.
+   - **Outcome:** By the end of the workshop, participants will have built and deployed their own dApp, gaining practical experience and confidence in using Scaffold-ETH2.
 
-3. On a second terminal, deploy the test contract:
+## Impact:
 
-```
-yarn deploy
-```
-
-This command deploys a test smart contract to the local network. The contract is located in `packages/hardhat/contracts` and can be modified to suit your needs. The `yarn deploy` command uses the deploy script located in `packages/hardhat/deploy` to deploy the contract to the network. You can also customize the deploy script.
-
-4. On a third terminal, start your NextJS app:
-
-```
-yarn start
-```
-
-Visit your app on: `http://localhost:3000`. You can interact with your smart contract using the `Debug Contracts` page. You can tweak the app config in `packages/nextjs/scaffold.config.ts`.
-
-**What's next**:
-
-- Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
-- Edit your frontend homepage at `packages/nextjs/app/page.tsx`. For guidance on [routing](https://nextjs.org/docs/app/building-your-application/routing/defining-routes) and configuring [pages/layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts) checkout the Next.js documentation.
-- Edit your deployment scripts in `packages/hardhat/deploy`
-- Edit your smart contract test in: `packages/hardhat/test`. To run test use `yarn hardhat:test`
-
-## Documentation
-
-Visit our [docs](https://docs.scaffoldeth.io) to learn how to start building with Scaffold-ETH 2.
-
-To know more about its features, check out our [website](https://scaffoldeth.io).
-
-## Contributing to Scaffold-ETH 2
-
-We welcome contributions to Scaffold-ETH 2!
-
-Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.
+This initiative aims to:
+- Enhance the skills and capabilities of new developers in the Lagos blockchain community.
+- Promote the adoption and utilization of Scaffold-ETH2, leading to more robust and innovative dApp projects.
+- Foster a collaborative learning environment where developers can share knowledge and support each other's growth.
